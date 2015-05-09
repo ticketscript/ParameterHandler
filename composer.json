@@ -1,13 +1,17 @@
 {
-    "name": "incenteev/composer-parameter-handler",
+    "name": "jaysphoto/composer-parameter-handler",
     "description": "Composer script handling your ignored parameter file",
     "keywords": ["parameters management"],
-    "homepage": "https://github.com/Incenteev/ParameterHandler",
+    "homepage": "https://github.com/jaysphoto/ParameterHandler",
     "license": "MIT",
     "authors": [
         {
             "name": "Christophe Coevoet",
             "email": "stof@notk.org"
+        },
+        {
+            "name": "Geoffrey de Kleijn",
+            "email": "jay@jayhaabee.nl"
         }
     ],
     "require": {
@@ -17,6 +21,7 @@
     "require-dev": {
         "composer/composer": "1.0.*@dev",
         "phpspec/prophecy-phpunit": "~1.0",
+        "phpunit/phpunit": "~4.6",
         "symfony/filesystem": "~2.2"
     },
     "autoload": {

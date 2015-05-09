@@ -1,0 +1,7 @@
+{
+  "packages": {
+    "jaysphoto/ParameterHandler": {
+      "master": "@composer.json"
+    }
+  }
+}
