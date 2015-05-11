@@ -1,6 +1,6 @@
 {
   "packages": {
-    "jaysphoto/ParameterHandler": {
+    "ticketscript/composer-parameter-handler": {
       "master": "@composer.json"
     }
   }

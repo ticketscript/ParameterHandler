@@ -1,8 +1,8 @@
 {
-    "name": "jaysphoto/composer-parameter-handler",
+    "name": "ticketscript/composer-parameter-handler",
     "description": "Composer script handling your ignored parameter file",
     "keywords": ["parameters management"],
-    "homepage": "https://github.com/jaysphoto/ParameterHandler",
+    "homepage": "https://github.com/ticketscript/composer-parameter-handler",
     "license": "MIT",
     "authors": [
         {
