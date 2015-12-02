@@ -201,15 +201,6 @@ class Processor
                             $subject = strtr($subject, $replaceValuesMap);
                     }
                 }
-                $subject = strtr($subject, $replaceValuesMap);
-                switch (strtolower($subject)) {
-                    case 'true': 
-                        $subject = true;
-                        break;
-                    case 'false':
-                        $subject = false;
-                        break;
-                }
                 break;
         }
     }
