@@ -189,7 +189,18 @@ class Processor
 
             case 'string':
                 // Replace values in subject
-                $subject = strtr($subject, $replaceValuesMap);
+                if(isset($replaceValuesMap[$subject])) {
+                    switch (strtolower($replaceValuesMap[$subject])) {
+                        case 'true':
+                            $subject = true;
+                            break;
+                        case 'false':
+                            $subject = false;
+                            break;
+                        default:
+                            $subject = strtr($subject, $replaceValuesMap);
+                    }
+                }
                 break;
         }
     }
