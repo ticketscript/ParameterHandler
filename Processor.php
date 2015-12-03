@@ -201,7 +201,6 @@ class Processor
                     case 'false':
                         $subject = false;
                         break;
-                    default:
                 }
                 break;
         }
