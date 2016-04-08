@@ -114,7 +114,7 @@ class Processor
         $params = array();
         foreach ($envMap as $param => $env) {
             $value = getenv($env);
-            if ($value) {
+            if ($value !== false) {
                 if (in_array(strtolower($value), ['true', 'false'])) {
                     $params[$encloseChar . $param . $encloseChar] = $value;
                 } else {
